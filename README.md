@@ -1,7 +1,7 @@
 # Trabalho_Redes
 
 Para baixar o container:
-```docker
+```
 docker pull ravi2002/projeto_redes:redes
 ```
 Para rodar o projeto:
