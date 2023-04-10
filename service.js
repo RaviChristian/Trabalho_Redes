@@ -89,5 +89,3 @@ app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
 
-
-//Observe que adicionei a função .status() com o valor adequado para cada endpoint. Para o endpoint POST, utilizei o código de status HTTP 201 Created, indicando que um novo recurso foi criado com sucesso. Para o endpoint PUT, utilizei o código de status HTTP 200 OK, indicando que a requisição foi processada com sucesso. Para o endpoint DELETE, utilizei o código de status HTTP 204 No Content, indicando que a requisição foi processada com sucesso, mas não há conteúdo para ser retornado. Para o endpoint PATCH, utilizei o código de status HTTP 200 OK, indicando que a requisição foi processada com sucesso. Para o endpoint OPTIONS, utilizei o código de status HTTP 200 OK, indicando que a requisição foi processada com sucesso. Para o endpoint HEAD, utilizei o código de status HTTP 200 OK, indicando que a requisição foi processada com sucesso.
